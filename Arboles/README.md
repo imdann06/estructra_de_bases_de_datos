@@ -26,6 +26,7 @@ Sistema Interactivo (Lista): Se presenta un menú interactivo para interactuar c
 Medición de Rendimiento: Se ejecutan pruebas de rendimiento para medir el tiempo de 1000 búsquedas aleatorias en cada estructura de datos (Lista, ABB, Árbol B+).
 
 -----------------------------------IMPORTANTE-------------------------------------------
+
 Uso: El codigo genera 10.000 estudiantes con IDS ordenadas, asi que cuando se ejecuta una primera vez lanza los resultados de rendimiento solo para IDS ordenadas, por eso en el ultimo bloque de codigo, se encuentra la siguiente linea de codigo, random.shuffle(estudiantes) # desordena la lista de estudiantes, esto desordena la lista de estudiantes por tanto, se ejecuta nuevamente el codigo desde el segundo bloque donde se empiezan a medir los tiempos para las IDS en desorden, este codigo se debe ejecutar en Google colab debido a este diseño.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
